@@ -1,4 +1,4 @@
-# Netflix Clone with MERN Stack (2024)
+# Netflix Clone with MERN Stack
 
 ## Project Overview
 
@@ -42,3 +42,57 @@ Make sure you have the following installed on your system:
    ```bash
    git clone https://github.com/yourusername/netflix-clone.git
    cd netflix-clone
+
+2. **Install dependencies for the backend:**
+   ```bash
+   npm install
+
+3. **Install dependencies for the frontend:**
+   ```bash
+   npm install --prefix frontend
+
+4. **Configure environment variables:**
+   Create a .env file in the root directory with the following variables:
+   ```bash
+   MONGO_URI=mongodb+srv://yourMongoDBUser:yourMongoDBPassword@cluster0.mongodb.net/netflix_clone?retryWrites=true&w=majority
+   PORT=5050
+   JWT_SECRET=yourJWTSecret
+   TMDB_API_KEY=yourTMDBApiKey
+   NODE_ENV=development
+   
+5. **Run the application:**
+   
+   Development Mode:
+   ```bash
+   npm run dev
+   ```
+
+   Production Build:
+   ```bash
+   npm run build
+   npm start
+
+3. **Access the app:**
+   Open **http://localhost:5055** in your browser for local development.
+
+
+## Folder Structure
+📁 netflix-clone/
+├── 📁 backend/
+│   ├── 📁 config/
+│   ├── 📁 controllers/
+│   ├── 📁 models/
+│   ├── 📁 routes/
+│   └── server.js
+├── 📁 frontend/
+│   ├── 📁 public/
+│   ├── 📁 src/
+│   │   ├── 📁 components/
+│   │   ├── 📁 hooks/
+│   │   ├── 📁 pages/
+│   │   ├── 📁 store/
+│   │   └── App.js
+├── .env
+├── package.json
+└── README.md
+
