@@ -77,6 +77,7 @@ Make sure you have the following installed on your system:
 
 
 ## Folder Structure
+``
 📁 netflix-clone/
 ├── 📁 backend/
 │   ├── 📁 config/
@@ -95,4 +96,5 @@ Make sure you have the following installed on your system:
 ├── .env
 ├── package.json
 └── README.md
+``
 
